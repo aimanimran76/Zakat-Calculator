@@ -1,0 +1,27 @@
+package com.example.zakatcalculator;
+
+import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
+import android.widget.Button;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class AboutActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        // Apply the user's selected theme
+        ThemeManager.applyTheme(this);
+
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_about);
+
+        // Back button functionality
+        Button backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(view -> finish());
+
+        // Ensure the links in the TextView are clickable
+        TextView websiteTextView = findViewById(R.id.websiteTextView);
+        websiteTextView.setMovementMethod(LinkMovementMethod.getInstance());
+    }
+}
