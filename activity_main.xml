@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/calculatorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator" />
+
+    <Button
+        android:id="@+id/aboutPageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Page"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/changeThemeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Theme"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
