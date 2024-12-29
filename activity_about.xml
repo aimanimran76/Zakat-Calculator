@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About This App"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by:"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add Student Information -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Name: MUHAMMAD AIMAN IMRAN BIN IBRAHIM"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID: 2023622932"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Class: CDCS2405B"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Program: CDCS240"
+        android:layout_marginTop="4dp" />
+
+    <!-- Clickable URL -->
+    <TextView
+        android:id="@+id/websiteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit our website: https://www.example.com"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
