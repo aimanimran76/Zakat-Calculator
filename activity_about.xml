@@ -47,7 +47,7 @@
         android:id="@+id/websiteTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Visit our website: https://www.example.com"
+        android:text="github : https://github.com/aimanimran76/Zakat-Calculator.git"
         android:autoLink="web"
         android:linksClickable="true"
         android:layout_marginTop="16dp" />
